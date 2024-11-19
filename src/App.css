@@ -1,5 +1,5 @@
 .steps {
-  margin-top: 100px;
+  margin-top: 120px;
   width: 70%;
   background-color: #f5f5f5;
   border-radius: 10px;
@@ -19,7 +19,7 @@
 }
 
 .numbers div {
-  background-color: #eaeaea;
+  background-color: #d8d6d6;
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -46,7 +46,19 @@
 .buttons button {
   font-size: 16px;
   padding: 5px;
-  width: 15%;
+  width: 20%;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.close {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  border: none;
+  background-color: #fff;
+  font-size: 40px;
 }
